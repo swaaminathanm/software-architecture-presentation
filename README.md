@@ -12,6 +12,9 @@ marp: true
 ---
 
 # **Agenda**
++ C4 Model Representation
++ Types of Software Architectures
++ Evolutionary Architecture
 
 ---
 
@@ -30,17 +33,9 @@ marp: true
 
 ---
 
-<!-- _class: lead -->
-
-![System Requirements](./diagrams/System_Requirements.png)
-
----
-
 # **System Context View**
 + Level 1 in C4 Modelling
 + Describes key users of the system
-
-*view image*
 
 ---
 
@@ -48,15 +43,11 @@ marp: true
 + Level 2 in C4 Modelling
 + Describes the different containers and protocols used for communication
 
-*view image*
-
 ---
 
 # **System Component View**
 + Level 3 in C4 Modelling
 + Low-Level details of the system
-
-*view image*
 
 ---
 
@@ -83,8 +74,6 @@ marp: true
   + Low performance
   + Better control over message flow
 
-*view image*
-
 --- 
 
 <!-- _class: lead -->
@@ -98,8 +87,6 @@ marp: true
 + Important to choose a proper bounded context
 + *Anti-pattern:* Lots of intercommunication between services (Big Ball of Mud)
 + *Anti-pattern:* Using transactions across services
-
-*view image*
 
 --- 
 
